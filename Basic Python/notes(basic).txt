@@ -1,0 +1,158 @@
+VARIABLES: 
+
+used to store values such as strings, integers, float etc.
+Valid Variables: name1, NAME, first_name, _name
+Invalid Variables: keywords(if, for, else etc.), 1name
+
+--------------------------------------------------------------------------------------
+
+EXPRESSIONS AND STATEMENTS:
+
+print(name) - statement
+1+1, "espada" - expression
+
+--------------------------------------------------------------------------------------
+
+COMMENTS:
+
+starting with #
+# this is a comment
+
+--------------------------------------------------------------------------------------
+
+DATA TYPES:
+
+complex, bool, list, tuple, range, dict, sets 
+type(name) - used to determine the type of a variable 
+isinstance(name, str) - to check if name is an instance of a string 
+float(age) - used to change the data type of a variable (Type Casting)
+
+--------------------------------------------------------------------------------------
+
+ARITHMATIC OPERATORS:
+
++ - addition
+- - subtraction
+* - multiplication
+/ - division
+% - remainder
+** - exponents
+// - floor division (rounding down to the nearest integer)
+(+ can also be used to concatenate two strings)
+
+--------------------------------------------------------------------------------------
+
+COMPARISON OPERATORS:
+
+a = 1
+b = 2
+
+a == b - False
+a != b - True
+a > b - False
+a <= b - True
+
+--------------------------------------------------------------------------------------
+
+BOOLEAN OPERATORS:
+
+condition1 = True
+condition2 = False
+
+not condition1 - False
+condition1 and condition2 - False (Both conditions should be either true or false in order to return true)
+condition1 or condition2 - True (Any one of the condition should be true)
+
+--------------------------------------------------------------------------------------
+
+BITWISE OPERATORS:
+
+& - binary AND
+| - binary OR 
+^ - binary XOR
+~ - binary NOT 
+<< - shift left
+>> - shift right
+
+--------------------------------------------------------------------------------------
+
+TERNARY OPERATORS:
+
+age = 30
+if age > 18:
+    return True
+else:
+    return False
+
+--------------------------------------------------------------------------------------
+
+STRINGS:
+
+name = "espada arrancar"
+
+print(""" My 
+name 
+is espada""") -  """ used to print multiline string
+
+.upper() - to convert to upper case "ESPADA"
+.lower() - to convert to lower case "espada"
+.title() - capitalize first word os a string "Espada Arrancar"
+.islower() - to check if lower case or not
+.isupper() - to check if upper case or not
+.isalpha() - to check if string contains only characters and is not empty
+.isalnum() - to check if string contains characters or digits and is not empty
+.isdecimal() - to check if string contains digits and not empty
+.startswith() -  to check if string starts with a specific substring
+.endwith()  - to check if string ends with a specific substring
+.replace() - to replace a part of a string
+.split() - to split a string on a specific character separator
+.strip() - to trim the whitespace from a string
+.join() - to append new letters to a string
+.find() - to find the position of a substring
+len(string) - length of a string
+"pa" in name - to check if a substring is present in the given string returns True
+
+Slicing: 
+name = "espada"
+
+print(name[2]) - return p
+print(name[1:4]) - return spa (includes the starting index and neglect the ending index)
+print(name[:4]) - return espa (starts from beginning till the ending index)
+print(name[1:]) - return spada (stars from the starting index till the end of the string)
+
+--------------------------------------------------------------------------------------
+
+BOOLEANS:
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
