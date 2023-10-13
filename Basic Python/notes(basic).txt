@@ -122,7 +122,118 @@ print(name[1:]) - return spada (stars from the starting index till the end of th
 
 --------------------------------------------------------------------------------------
 
-BOOLEANS:
+NUMERIC DATA TYPES:
+
+numm = complex(2,3) - 2 is real part and 3 is imaginary
+abs() - returns absoulte value 
+round() - round to the nearest integer
+
+--------------------------------------------------------------------------------------
+
+ENUMS:
+they are readable names bound to constant value
+
+from enum import Enum 
+
+class State(Enum):
+    INACTIVE = 0
+    ACTIVE = 1
+
+print(State.ACTIVE.value) - prints 1
+print(list(State)) - prints the list of values
+
+--------------------------------------------------------------------------------------
+
+LISTS:
+can hold different types of data string, integer, float
+mutable
+
+dog = ["Roger","Shiro"]
+
+"Roger" in dog - used to check if given item is present in the list
+dog[0] = "Tommy" - used to change the items in list  
+
+slicings the same as previous
+.append() - used to insert item at the end
+.remove() 
+.pop() - remove item in the end
+.insert() - to add an item at a particular index
+.sort()
+dog[:] -  another way to copy a list
+
+--------------------------------------------------------------------------------------
+
+TUPLES:
+immutable (cannot modify)
+
+names= ("grimjoww","ulquiorra")
+
+sorted(names) - creates a new sorted tuple 
+
+--------------------------------------------------------------------------------------
+
+DICTIONARY:
+contains key value pairs
+dog = {"name": "Tommy", "age" : 5, "color": "white"}
+
+print(dog["name"]) - prints values for the speified key
+print(dog.get("color", "No key color present")) - returns white is color key present otheriwse returns "No key color present"
+dog.pop("name")
+dog.popitem() - removes the recently added key value pair
+"color" in dog 
+.keys()/.values()
+del dog['color']
+.copy()
+
+--------------------------------------------------------------------------------------
+
+SETS:
+
+set1 = {"grimjoww","ichigo"}
+set2 = {"grimjoww"}
+
+intersect = set1 + set2
+union = set1 | set2
+difference = set1 - set2
+subset = set1 > set2 (does set1 contain everything set2 has)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
